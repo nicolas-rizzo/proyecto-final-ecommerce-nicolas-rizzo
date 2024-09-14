@@ -1,6 +1,6 @@
-# Proyecto Final eCommerce CaC
+# Proyecto Final eCommerce Talento Tech
 
-Proyecto ecommerce Codo a Codo
+Proyecto ecommerce Talento Tech
 
 ## Características
 
