@@ -1,0 +1,9 @@
+header div {
+    display: flex; /* Activa el modo flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+}
+
+h1 {
+    margin: 0; /* Elimina el margen por defecto del h1 */
+}
