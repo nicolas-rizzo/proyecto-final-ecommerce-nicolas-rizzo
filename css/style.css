@@ -7,3 +7,11 @@ header div {
 h1 {
     margin: 0; /* Elimina el margen por defecto del h1 */
 }
+
+ui, li {
+    list-style: none;
+    
+    a {
+        text-decoration: none;
+    }
+}
