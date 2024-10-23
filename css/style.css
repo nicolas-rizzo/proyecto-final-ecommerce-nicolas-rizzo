@@ -1,11 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #333;
+    color: white;
     padding: 20px;
+    text-align: center;
 }
 
 header div {
@@ -32,20 +36,17 @@ li {
     list-style: none;
 }
 
-a {
+nav ul li a {
     text-decoration: none;
     color: white;
     padding: 10px;
+    width: 30px; /* Ancho del enlace */
+    display: block; /* Para que el ancho se aplique correctamente */
+    text-align: center; /* Centra el texto dentro del enlace */
 }
 
 a:hover {
     background-color: #555;
-}
-
-footer {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 10px;
 }
 
 #contacto {
@@ -106,4 +107,91 @@ button:hover {
 video {
     max-width: 100%;
     height: auto;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.reseñas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.reseña {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    header div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    #contacto {
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .producto {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 8px 10px;
+    }
 }
