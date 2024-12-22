@@ -2,20 +2,55 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-color: #f4f4f4;
+    display: flex; 
+    flex-direction: column; 
+    height: 100vh;
+}
+main { 
+    flex: 1; 
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     background-color: #333;
     color: white;
-    padding: 20px;
-    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
 }
 
 header div {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+header .carrito {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+header .carrito #verCarritoBtn {
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+header .carrito #verCarritoBtn:hover {
+    text-decoration: underline;
 }
 
 h1 {
@@ -39,10 +74,10 @@ li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 10px;
-    width: 30px; /* Ancho del enlace */
-    display: block; /* Para que el ancho se aplique correctamente */
-    text-align: center; /* Centra el texto dentro del enlace */
+    padding: 10px 20px;
+    display: block; 
+    text-align: center; 
+    box-sizing: border-box;
 }
 
 a:hover {
@@ -84,7 +119,7 @@ textarea {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #ff6f61;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -94,7 +129,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #e55d4e;
 }
 
 #video {
@@ -117,15 +152,56 @@ video {
 }
 
 .producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 200px;
+    height: 100%;
     margin: 10px;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-bottom: 20px;
 }
+
+.producto .botones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    width: 100%; 
+    margin-top: auto;
+  }
+
+.producto button {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: inherit;
+  }
+
+.producto img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+  }
+
+.producto h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.producto p {
+    font-size: 1em;
+    color: #555;
+}
+
 
 .reseñas {
     display: grid;
@@ -150,6 +226,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: auto; 
 }
 
 @media (max-width: 768px) {
@@ -194,4 +271,130 @@ footer {
     button {
         padding: 8px 10px;
     }
+}
+
+#carritoContenido {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.producto-carrito {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto-carrito h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+}
+
+.producto-carrito p {
+    color: #666;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.producto-carrito .precio {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+#totalCarrito {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+}
+
+#pagarBtn {
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+#reseñasContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding-bottom: 50px; 
+  }
+  
+  .reseña {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .reseña h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .reseña p {
+    margin: 10px 0;
+  }
+  
+  #agregarReseña {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#agregarReseña h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#formReseña {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#formReseña label {
+    font-weight: bold;
+}
+
+#formReseña input[type="text"],
+#formReseña input[type="date"],
+#formReseña select,
+#formReseña textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#formReseña button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+#formReseña button:hover {
+    background-color: #e55d4e;
 }

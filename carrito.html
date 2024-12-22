@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petshop</title>
+    <title>Carrito de Compras</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
-        <div class="logo">
+        <div>
             <img src="./images/logo.png" alt="Logo del Proyecto ecommerce" style="width: 100px; height: auto;">
             <h1>Petshop</h1>
         </div>
 
-        <div class="carrito">
-            <button id="carritoBtn">Ver carrito (<span id="carritoCantidad">0</span>)</button>
-            <button id="vaciarCarritoBtn">Vaciar carrito</button>
-        </div>        
     </header>
 
     <nav>
@@ -29,18 +27,23 @@
     </nav>
 
     <main>
-        <section id="video">
-            <video width="640" height="360" controls loop autoplay>
-                <source src="./videos/video.mp4" type="video/mp4">
-                Tu navegador no soporta la reproducción de videos.
-            </video>
-        </section>
+        <h2>Carrito de Compras</h2>
+        <div id="carritoContenido">
+
+        </div>
+
+        <div id="totalCarrito">
+            <p><strong>Total: $<span id="totalCarritoMonto">0.00</span></strong></p>
+        </div>
+
+        <button id="pagarBtn">Pagar</button>
     </main>
 
     <footer>
-        <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        <p>© 2024 Tienda de Productos. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="./js/productos.js"></script>
+    <script src="./js/carrito.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,175 @@
+[
+    {
+      "id": 1,
+      "titulo": "Alimento Balanceado para Perros",
+      "descripcion": "Bolsa de 15 kg de alimento balanceado para perros adultos.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_749730-MLA80989463790_122024-F.webp",
+      "precio": 74.456,
+      "stock": 20,
+      "tipo": "perros"
+    },
+    {
+      "id": 2,
+      "titulo": "Rascador para Gatos",
+      "descripcion": "Rascador para gatos con juguete colgante integrado.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_740015-MLA76285385746_052024-F.webp",
+      "precio": 31.300,
+      "stock": 15,
+      "tipo": "gatos"
+    },
+    {
+      "id": 3,
+      "titulo": "Pecera Redonda Nro 2",
+      "descripcion": "Pecera redonda de vidrio",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_661800-MLA79555620290_102024-O.webp",
+      "precio": 40.884,
+      "stock": 10,
+      "tipo": "peces"
+    },
+    {
+      "id": 4,  
+      "titulo": "Correa Extensible Perro",
+      "descripcion": "Correa extensible de 5 metros para perros medianos.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_766261-MLA77998733643_072024-O.webp",
+      "precio": 10.670,
+      "stock": 30,
+      "tipo": "perros"
+    },
+    {
+      "id": 5,
+      "titulo": "Cama Redonda para Gatos",
+      "descripcion": "Cama redonda de felpa suave para gatos.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_681563-MLA80554335596_112024-O.webp",
+      "precio": 13.913,
+      "stock": 25,
+      "tipo": "gatos"
+    },
+    {
+      "id": 6,
+      "titulo": "Caja de Arena para Gatos",
+      "descripcion": "Caja de arena para gatos con dise\u00f1o abierto, f\u00e1cil de limpiar.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_683770-MLA77764704137_072024-O.webp",
+      "precio": 13.500,
+      "stock": 35
+    },
+    {
+      "id": 7,
+      "titulo": "Alimento Perro Cachorro - Lata 340gr",
+      "descripcion": "Alimento h\u00famedo sabor cordero y arroz para perros adultos.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_946222-MLU78968925064_092024-O.webp",
+      "precio": 2.500,
+      "stock": 70
+    },
+    {
+      "id": 8,
+      "titulo": "Pretal Arnes Ajustable para Perros",
+      "descripcion": "Arn\u00e9s c\u00f3modo y ajustable, ideal para perros medianos.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_958065-MLA52352188372_112022-O.webp",
+      "precio": 14.940,
+      "stock": 20,
+      "tipo": "perros"
+    },
+    {
+      "id": 9,
+      "titulo": "Set de Juguetes para Gatos",
+      "descripcion": "Incluye 6 pelotas.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_735927-MLU73334119649_122023-O.webp",
+      "precio": 2500.0,
+      "stock": 50,
+      "tipo": "gatos"
+    },
+    {
+      "id": 10,
+      "titulo": "Manta para Mascotas",
+      "descripcion": "Manta de lana suave, ideal para gatos y perros peque\u00f1os.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_881687-MLA77789813323_072024-O.webp",
+      "precio": 8.000,
+      "stock": 60
+    },
+    {
+      "id": 11,
+      "titulo": "Filtro Cascada Mochila Acuario",
+      "descripcion": "Filtro externo de alta eficiencia para acuarios de hasta 200 litros.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_904576-MLU78984361576_092024-O.webp",
+      "precio": 9800.0,
+      "stock": 15
+    },
+    {
+      "id": 12,
+      "titulo": "Golosinas para Perros - Sabor Bacon",
+      "descripcion": "Paquete de 200 g de golosinas sabor bacon para premiar a tu perro.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_965784-CBT76720045288_062024-O.webp",
+      "precio": 52.403,
+      "stock": 80
+    },
+    {
+      "id": 13,
+      "titulo": "Comedero Doble para Mascotas",
+      "descripcion": "Comedero doble de acero inoxidable, ideal para comida y agua.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_774301-MLA46606748230_072021-O.webp",
+      "precio": 13.200,
+      "stock": 25,
+      "tipo": "perros"
+    },
+    {
+      "id": 14,
+      "titulo": "Heno para Conejos - Bolsa 1 kg",
+      "descripcion": "Heno natural de alta calidad para conejos y roedores.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_900056-MLA72789295501_112023-O.webp",
+      "precio": 5.000,
+      "stock": 50
+    },
+    {
+      "id": 15,
+      "titulo": "Jaula para P\u00e1jaros - Tama\u00f1o Mediano",
+      "descripcion": "Jaula para p\u00e1jaros con accesorios incluidos, color blanco.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_651544-MLA49733168220_042022-O.webp",
+      "precio": 60.000,
+      "stock": 10
+    },
+    {
+      "id": 16,
+      "titulo": "Espejo para Jaulas de P\u00e1jaros",
+      "descripcion": "Espejo con campana para estimular a los p\u00e1jaros en su jaula.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_765509-CBT75835442879_042024-O.webp",
+      "precio": 53.304,
+      "stock": 100,
+      "tipo": "aves"
+    },
+    {
+      "id": 17,
+      "titulo": "Term\u00f3metro para Acuarios",
+      "descripcion": "Term\u00f3metro digital sumergible para medir la temperatura del agua.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_656756-MLU70646041202_072023-O.webp",
+      "precio": 17.000,
+      "stock": 40,
+      "tipo": "peces"
+    },
+    {
+      "id": 18,
+      "titulo": "Pelota de Goma para Gatos",
+      "descripcion": "Pelota ligera con sonido interno, ideal para el entretenimiento de gatos.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_602807-MLU77852417410_072024-O.webp",
+      "precio": 8.000,
+      "stock": 75,
+      "tipo": "gatos"
+    },
+    {
+      "id": 19,
+      "titulo": "Casita para Conejos",
+      "descripcion": "Casita de madera natural, ideal para conejos o cobayos.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_988988-MLA49809872089_042022-O.webp",
+      "precio": 14.990,
+      "stock": 18,
+      "tipo": "roedores"
+    },
+    {
+      "id": 20,
+      "titulo": "Acuario Completo - 240 Litros",
+      "descripcion": "Acuario de 240 litros con iluminaci\u00f3n LED, filtro y decoraci\u00f3n.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_959803-MLA80626933484_112024-O.webp",
+      "precio": 650.000,
+      "stock": 8,
+      "tipo": "peces"
+    }
+  ]

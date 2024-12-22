@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reseñas del Producto</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <img src="./images/logo.png" alt="Logo del Proyecto ecommerce" style="width: 100px; height: auto;">
+      <h1>Reseñas del Producto</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./productos.html">Productos</a></li>
+        <li><a href="./contactenos.html">Contacto</a></li>
+    </ul>
+</nav>
+
+  <main>
+    <h2>Reseñas del producto</h2>
+    <div id="reseñasContainer"></div>
+
+    <section id="agregarReseña">
+      <h2>Agregar una Reseña</h2>
+      <form id="formReseña">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+  
+          <label for="comentario">Comentario:</label>
+          <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu reseña aquí" required></textarea>
+    
+          <button type="submit">Enviar Reseña</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Tienda de Productos. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="./js/resenas.js"></script>
+</body>
+</html>

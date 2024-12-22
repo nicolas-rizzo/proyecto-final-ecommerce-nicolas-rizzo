@@ -1,0 +1,352 @@
+[
+  {
+    "productoId": 1,
+    "reseñas": [
+      {
+        "nombre": "Juan Pérez",
+        "comentario": "Excelente producto, mi perro lo ama.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "María González",
+        "comentario": "Muy buen precio y calidad, lo seguiré comprando.",
+        "fecha": "2024-12-21"
+      },
+      {
+        "nombre": "Ana Martínez",
+        "comentario": "Es perfecto, lo compré para mi perro y ha mejorado mucho su salud.",
+        "fecha": "2024-12-19"
+      }
+    ]
+  },
+  {
+    "productoId": 2,
+    "reseñas": [
+      {
+        "nombre": "Carlos López",
+        "comentario": "La calidad es buena, pero llegó tarde.",
+        "fecha": "2024-12-20"
+      },
+      {
+        "nombre": "Sofía Rodríguez",
+        "comentario": "Buen producto, aunque esperaba que fuera un poco más resistente.",
+        "fecha": "2024-12-17"
+      },
+      {
+        "nombre": "Diego Fernández",
+        "comentario": "Excelente relación calidad-precio, aunque el color no es exactamente como en la foto.",
+        "fecha": "2024-12-15"
+      }
+    ]
+  },
+  {
+    "productoId": 3,
+    "reseñas": [
+      {
+        "nombre": "Laura Sánchez",
+        "comentario": "Este producto superó mis expectativas. Lo volvería a comprar sin dudar.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Pedro Ruiz",
+        "comentario": "Muy práctico, lo uso todos los días y sigue funcionando como nuevo.",
+        "fecha": "2024-12-20"
+      },
+      {
+        "nombre": "Ricardo Pérez",
+        "comentario": "Es un producto muy útil, pero la entrega fue un poco más tarde de lo esperado.",
+        "fecha": "2024-12-18"
+      }
+    ]
+  },
+  {
+    "productoId": 4,
+    "reseñas": [
+      {
+        "nombre": "Julia Rodríguez",
+        "comentario": "Me ha sido muy útil para mis entrenamientos, es de buena calidad.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Luis Hernández",
+        "comentario": "Buena calidad, aunque es un poco más grande de lo que esperaba.",
+        "fecha": "2024-12-21"
+      },
+      {
+        "nombre": "Esteban García",
+        "comentario": "Lo compré por recomendación de un amigo, y no me arrepiento.",
+        "fecha": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "productoId": 5,
+    "reseñas": [
+      {
+        "nombre": "Fernando Torres",
+        "comentario": "Muy buena opción para quienes buscan algo económico y funcional.",
+        "fecha": "2024-12-18"
+      },
+      {
+        "nombre": "Carmen Ruiz",
+        "comentario": "El producto llegó en excelente estado, muy satisfecho.",
+        "fecha": "2024-12-17"
+      },
+      {
+        "nombre": "Daniel López",
+        "comentario": "El producto cumple con lo prometido, aunque la entrega fue lenta.",
+        "fecha": "2024-12-16"
+      }
+    ]
+  },
+  {
+    "productoId": 6,
+    "reseñas": [
+      {
+        "nombre": "Paola Sánchez",
+        "comentario": "Muy recomendable. Debería ser un poco más barato, pero la calidad lo justifica.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Eduardo Ramírez",
+        "comentario": "Buen producto, lo único es que es un poco más pequeño de lo que imaginaba.",
+        "fecha": "2024-12-20"
+      },
+      {
+        "nombre": "Isabel González",
+        "comentario": "Excelente. Es justo lo que necesitaba y funciona muy bien.",
+        "fecha": "2024-12-19"
+      }
+    ]
+  },
+  {
+    "productoId": 7,
+    "reseñas": [
+      {
+        "nombre": "Julio Pérez",
+        "comentario": "Lo he probado y me ha encantado. Recomendado 100%.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Marta Gómez",
+        "comentario": "Buena calidad, aunque el tamaño no era el adecuado para mi mascota.",
+        "fecha": "2024-12-20"
+      },
+      {
+        "nombre": "Raúl Martínez",
+        "comentario": "Mi perro lo disfruta mucho, pero tarda en llegar a veces.",
+        "fecha": "2024-12-18"
+      }
+    ]
+  },
+  {
+    "productoId": 8,
+    "reseñas": [
+      {
+        "nombre": "Carolina López",
+        "comentario": "La mejor compra que he hecho para mi mascota. Perfecto.",
+        "fecha": "2024-12-21"
+      },
+      {
+        "nombre": "David Pérez",
+        "comentario": "Muy buen producto, aunque no es tan duradero como esperaba.",
+        "fecha": "2024-12-20"
+      },
+      {
+        "nombre": "Santiago García",
+        "comentario": "Excelente relación calidad-precio. Repetiré la compra.",
+        "fecha": "2024-12-18"
+      }
+    ]
+  },
+  {
+    "productoId": 9,
+    "reseñas": [
+      {
+        "nombre": "Luz Rodríguez",
+        "comentario": "Lo compré por recomendación de un amigo y no me ha defraudado.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Antonio Sánchez",
+        "comentario": "Buen producto, pero llegó un poco sucio.",
+        "fecha": "2024-12-21"
+      },
+      {
+        "nombre": "Victoria García",
+        "comentario": "Muy bueno, aunque no me convenció mucho la textura.",
+        "fecha": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "productoId": 10,
+    "reseñas": [
+      {
+        "nombre": "José Pérez",
+        "comentario": "Increíble calidad. Definitivamente volveré a comprar.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Lucía Hernández",
+        "comentario": "El precio es un poco alto, pero vale la pena.",
+        "fecha": "2024-12-21"
+      },
+      {
+        "nombre": "Roberto García",
+        "comentario": "Buen producto, pero la entrega se retrasó un poco.",
+        "fecha": "2024-12-19"
+      }
+    ]
+  },
+  {
+    "productoId": 11,
+    "reseñas": [
+      {
+        "nombre": "Sandra Ruiz",
+        "comentario": "Es lo que necesitaba para mi mascota. Funciona perfecto.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Carlos Jiménez",
+        "comentario": "Me gustaría que fuera un poco más grande, pero en general está bien.",
+        "fecha": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "productoId": 12,
+    "reseñas": [
+      {
+        "nombre": "José Luis Pérez",
+        "comentario": "Cumple con lo que promete, pero esperaba más resistencia.",
+        "fecha": "2024-12-21"
+      },
+      {
+        "nombre": "Marta López",
+        "comentario": "La calidad es buena, pero la entrega se demoró más de lo esperado.",
+        "fecha": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "productoId": 13,
+    "reseñas": [
+      {
+        "nombre": "Andrés Gómez",
+        "comentario": "Muy buen producto. Lo recomiendo ampliamente.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Rosa Martínez",
+        "comentario": "Excelente relación calidad-precio, y muy funcional.",
+        "fecha": "2024-12-21"
+      }
+    ]
+  },
+  {
+    "productoId": 14,
+    "reseñas": [
+      {
+        "nombre": "Isabel Pérez",
+        "comentario": "Un producto maravilloso, mi mascota lo adora.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Carlos Rodríguez",
+        "comentario": "Está bien, pero el tamaño no es el adecuado para mi perro.",
+        "fecha": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "productoId": 15,
+    "reseñas": [
+      {
+        "nombre": "Mario Sánchez",
+        "comentario": "Muy buen material, aunque es un poco caro.",
+        "fecha": "2024-12-21"
+      },
+      {
+        "nombre": "Luisa Martínez",
+        "comentario": "Me gusta mucho, pero espero que dure más tiempo.",
+        "fecha": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "productoId": 16,
+    "reseñas": [
+      {
+        "nombre": "Juan Gómez",
+        "comentario": "Me sorprendió la durabilidad, vale la pena.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Patricia Ruiz",
+        "comentario": "La calidad es buena, pero la entrega tardó mucho.",
+        "fecha": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "productoId": 17,
+    "reseñas": [
+      {
+        "nombre": "Beatriz Sánchez",
+        "comentario": "Muy bueno, me ha facilitado mucho las cosas.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Marcelo García",
+        "comentario": "Un poco caro, pero es de muy buena calidad.",
+        "fecha": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "productoId": 18,
+    "reseñas": [
+      {
+        "nombre": "Ana García",
+        "comentario": "Excelente producto, estoy muy contenta.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Laura Rodríguez",
+        "comentario": "Lo usé durante una semana y hasta ahora todo bien.",
+        "fecha": "2024-12-21"
+      }
+    ]
+  },
+  {
+    "productoId": 19,
+    "reseñas": [
+      {
+        "nombre": "Daniela Fernández",
+        "comentario": "Lo compré para mi perro y es de buena calidad.",
+        "fecha": "2024-12-20"
+      },
+      {
+        "nombre": "Felipe García",
+        "comentario": "La calidad es excelente, pero el color no es igual al de la foto.",
+        "fecha": "2024-12-18"
+      }
+    ]
+  },
+  {
+    "productoId": 20,
+    "reseñas": [
+      {
+        "nombre": "Marta López",
+        "comentario": "Muy buena compra, funciona perfectamente.",
+        "fecha": "2024-12-22"
+      },
+      {
+        "nombre": "Héctor Pérez",
+        "comentario": "Perfecto para mi perro, lo recomiendo.",
+        "fecha": "2024-12-20"
+      }
+    ]
+  }
+]
