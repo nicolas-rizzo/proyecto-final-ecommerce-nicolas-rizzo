@@ -24,6 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
           const productosFiltrados = filtro === 'all' ? data : data.filter(producto => producto.tipo === filtro);
   
+          //Crear un ciclo que genere dinámicamente una
+          //lista de productos disponibles y los muestre en la consola
+          console.log({productosFiltrados});
+
           productosFiltrados.forEach(producto => {
             const productoEnCarrito = carrito.find(item => item.id === producto.id);
             const stockDisponible = producto.stock - (productoEnCarrito ? productoEnCarrito.cantidad : 0);
