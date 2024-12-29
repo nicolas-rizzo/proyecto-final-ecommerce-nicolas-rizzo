@@ -3,18 +3,44 @@ document.addEventListener('DOMContentLoaded', () => {
     const carritoContenido = document.getElementById('carritoContenido');
     const totalCarritoMonto = document.getElementById('totalCarritoMonto');
     const pagarBtn = document.getElementById('pagarBtn');
+    const datosPago = document.getElementById("datosPago");
+    
+    const vaciarCarritoBtn = document.getElementById('vaciarCarritoBtn');
+    vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
 
     if (carrito.length === 0) {
         carritoContenido.innerHTML = '<p>No tienes productos en el carrito.</p>';
         pagarBtn.disabled = true;
+        datosPago.style.display = 'none';
         return;
     }
+
+    function vaciarCarrito() {
+        let carrito = [];
+        localStorage.setItem('carrito', JSON.stringify(carrito));
+        alert('El carrito ha sido vaciado.');
+        //carritoCantidad.textContent = 0;
+        carritoContenido.innerHTML = '<p>No tienes productos en el carrito.</p>';
+        totalCarritoMonto.textContent = '0.00';
+        pagarBtn.disabled = true;
+        datosPago.style.display = 'none';        
+    }
+
+    window.eliminarProducto = function (index) {
+        carrito.splice(index, 1);
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+        if (carrito.length === 0) {
+            datosPago.style.display = 'none';
+            carritoContenido.innerHTML = '<p>No tienes productos en el carrito.</p>';
+        }
+        mostrarCarrito(); // Actualizamos el carrito tras eliminar un producto
+    };
 
     function mostrarCarrito() {
         carritoContenido.innerHTML = '';
         let total = 0;
 
-        carrito.forEach(producto => {
+        carrito.forEach((producto, index) => {
             total += producto.precio * producto.cantidad;
 
             const productoDiv = document.createElement('div');
@@ -24,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Cantidad: ${producto.cantidad}</p>
                 <p>Precio unitario: $${producto.precio.toFixed(2)}</p>
                 <p>Subtotal: $${(producto.precio * producto.cantidad).toFixed(2)}</p>
+                <button onclick="eliminarProducto(${index})">Eliminar</button>
             `;
             carritoContenido.appendChild(productoDiv);
         });
@@ -41,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             carritoContenido.innerHTML = '<p>Tu compra ha sido realizada con exito.</p>';
             totalCarritoMonto.textContent = '0.00';
             pagarBtn.disabled = true;
+            datosPago.style.display = 'none';
         }
     });
 });

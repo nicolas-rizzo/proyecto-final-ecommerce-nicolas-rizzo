@@ -12,24 +12,28 @@ document.addEventListener('DOMContentLoaded', function () {
         const nombre = document.getElementById('nombres');
         if (!nombre.value.trim()) {
             alert('El campo nombre es obligatorio');
+            nombre.focus();
             return;
         }
 
         const apellido = document.getElementById('apellido');
         if (!apellido.value.trim()) {
             alert('El campo apellido es obligatorio');
+            apellido.focus();
             return;
         }
 
         const email = document.getElementById('email');
         if (!email.value.trim() || !validateEmail(email.value)) {
             alert('El campo email es obligatorio y debe ser un email valido');
+            email.focus();
             return;
         }
 
         const mensaje = document.getElementById('mensaje');
         if (!mensaje.value.trim()) {
             alert('El campo mensaje es obligatorio');
+            mensaje.focus();
             return;
         }
 

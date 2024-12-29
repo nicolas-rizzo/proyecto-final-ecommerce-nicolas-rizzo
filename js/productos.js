@@ -130,7 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
         vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
   
         actualizarCantidadCarrito();
-  
         actualizarStock();
       })
       .catch(error => {

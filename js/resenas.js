@@ -26,5 +26,30 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(error => {
         console.error('Error al cargar las reseñas:', error);
       });
+
+      const btnRes = document.getElementById('btnRes');
+      btnRes.addEventListener('click', () => {
+        const nombre = document.getElementById('nombre');
+        const comentario = document.getElementById('comentario');
+        const fecha = new Date().toLocaleDateString();
+
+        if (nombre.value === '') {
+          alert('Por favor, ingrese su nombre.');
+          nombre.focus();
+          return;
+        }
+
+        if (comentario.value === '') {
+          alert('Por favor, ingrese su comentario.');
+          comentario.focus();
+          return;
+        }
+
+        console.log({ nombre, comentario, fecha });
+        alert('Reseña enviada con éxito');
+
+        nombre.value = ''; 
+        comentario.value = '';
+      });
   });
   
