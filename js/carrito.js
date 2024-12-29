@@ -36,6 +36,29 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    window.actualizarCantidad = function (index, nuevaCantidad) {
+        const producto = carrito[index];
+        nuevaCantidad = parseInt(nuevaCantidad);
+
+        if (nuevaCantidad < 1) {
+            alert('La cantidad mínima es 1.');
+            mostrarCarrito();
+            return;
+        }
+
+        console.log(nuevaCantidad, producto.stock);
+
+        if (nuevaCantidad > producto.stock) {
+            alert(`No puedes agregar más de ${producto.stock} unidades. Stock disponible: ${producto.stock}`);
+            mostrarCarrito();
+            return;
+        }
+
+        producto.cantidad = nuevaCantidad;
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+        mostrarCarrito();
+    };
+
     function mostrarCarrito() {
         carritoContenido.innerHTML = '';
         let total = 0;
@@ -50,6 +73,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Cantidad: ${producto.cantidad}</p>
                 <p>Precio unitario: $${producto.precio.toFixed(2)}</p>
                 <p>Subtotal: $${(producto.precio * producto.cantidad).toFixed(2)}</p>
+                <div>
+                    <label for="cantidad-${index}">Cantidad:</label>
+                    <input type="number" id="cantidad-${index}" value="${producto.cantidad}" min="1" 
+                        onchange="actualizarCantidad(${index}, this.value)">
+                </div>                
                 <button onclick="eliminarProducto(${index})">Eliminar</button>
             `;
             carritoContenido.appendChild(productoDiv);

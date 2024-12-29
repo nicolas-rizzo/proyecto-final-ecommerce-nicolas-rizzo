@@ -77,7 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     id: id,
                     titulo: titulo,
                     cantidad: 1,
-                    precio: precio
+                    precio: precio,
+                    stock: stock
                   });
                 }
   
