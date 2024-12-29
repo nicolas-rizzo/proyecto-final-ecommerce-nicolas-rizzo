@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
         let carrito = [];
         localStorage.setItem('carrito', JSON.stringify(carrito));
         alert('El carrito ha sido vaciado.');
-        //carritoCantidad.textContent = 0;
         carritoContenido.innerHTML = '<p>No tienes productos en el carrito.</p>';
         totalCarritoMonto.textContent = '0.00';
         pagarBtn.disabled = true;
@@ -29,11 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
     window.eliminarProducto = function (index) {
         carrito.splice(index, 1);
         localStorage.setItem("carrito", JSON.stringify(carrito));
-        if (carrito.length === 0) {
-            datosPago.style.display = 'none';
-            carritoContenido.innerHTML = '<p>No tienes productos en el carrito.</p>';
+
+        if (carrito.length == 0) {
+            vaciarCarrito();
+        } else {
+            mostrarCarrito();
         }
-        mostrarCarrito(); // Actualizamos el carrito tras eliminar un producto
     };
 
     function mostrarCarrito() {

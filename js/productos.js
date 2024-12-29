@@ -125,10 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
           actualizarCantidadCarrito();
           mostrarProductos();
         }
-  
-        const vaciarCarritoBtn = document.getElementById('vaciarCarritoBtn');
-        vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
-  
+    
         actualizarCantidadCarrito();
         actualizarStock();
       })
